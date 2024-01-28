@@ -4,15 +4,16 @@
     display: flex;
     justify-content: center;
     align-items: center;
-  /*background-color: rgb(148, 132, 132); */
-    background-color: rgba(20, 20, 20);
-    background-color: transparent;
+  /* background-color: rgb(148, 132, 132); */
+    /* background-color: rgba(20, 20, 20);
+    background-color: transparent; */
+    background-color: rgba(0, 0, 0, 0.6);
     height: 10vh;
     color: white;
     transition: all 0.5s;
     transition-timing-function: ease-in;
     z-index: 1;
-    background-color: #111;
+    /* background-color: #111; */
 }
 .nav_black {
     background-color: rgb(20, 20, 20);
