@@ -3,6 +3,7 @@ import "./Footer.css"
 import FacebookOutlinedIcon from '@mui/icons-material/FacebookOutlined';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import YouTubeIcon from '@mui/icons-material/YouTube';
+import XIcon from '@mui/icons-material/X';
 const Footer = () => {
   return (
     <div className='footer_outer_container'>
@@ -11,6 +12,7 @@ const Footer = () => {
           <FacebookOutlinedIcon />
           <InstagramIcon />
           <YouTubeIcon />
+          <XIcon />
         </div>
         <div className='footer_data'>
           <div>
@@ -24,21 +26,23 @@ const Footer = () => {
             <ul>
               <li>Help Center</li>
               <li>Jobs</li>
-              <li>Cookie Preferences</li>
+              <li>Legal Notices</li>
+              <li>do not sell or share my <br/>personal information</li>
             </ul>
           </div>
           <div>
             <ul>
               <li>Gift Cards</li>
-              <li>Terms of Use</li>
-              <li>Corporate Information</li>
+              <li>Netflix Shope</li>
+              <li>Cookies Preferance</li>
+              <li>Ad Choice</li>
             </ul>
           </div>
           <div>
             <ul>
               <li>Media Center</li>
-              <li>Privacy</li>
-              <li>Contact Us</li>
+              <li>Term of use</li>
+              <li>Corporate information</li>
             </ul>
           </div>
         </div>
